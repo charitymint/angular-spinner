@@ -61,7 +61,8 @@
 							stopSpinner();
 							scope.spinner = new SpinnerConstructor(options);
 							if (!scope.key || scope.startActive) {
-								scope.spinner.spin(element[0]);
+								element[0].appendChild(scope.spinner.spin().el);
+								//scope.spinner.spin(element[0]);
 							}
 						}, true);
 
