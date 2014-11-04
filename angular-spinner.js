@@ -81,4 +81,4 @@
 			}
 		};
 	}]);
-})( window, window.angular, Spinner );
+})( window, window.angular, window.Spinner );
